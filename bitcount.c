@@ -2,7 +2,7 @@
  * bitcount counts the number
  * of 1-bits in its integer argument.
  *
- * in the second method, x &= (x-1) delets
+ * in the second method, x &= (x-1) deletes
  * the rightmost 1-bit in x.
  */
 
