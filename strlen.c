@@ -9,3 +9,15 @@ int strlen(char *s) {
         n++;
     return n;
 }
+
+/* 
+ * another version of strlen
+ */
+ 
+int strlen(char *s) {
+    char *p = s;
+
+    while (*p != '\0')
+        p++;
+    return p-s;
+}
